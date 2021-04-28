@@ -1,0 +1,28 @@
+#include <stdio.h>
+main()
+{
+    int n;
+    printf("enter the number");
+    scanf("%d",&n);
+    switch(n)
+    { 
+        case 1 : printf("pizza 238");
+        break;
+        
+        case 2 : printf("burger 300");
+        break;
+        
+        case 3 : printf("pasta 458");
+        break;
+        
+        case 4 : printf("kfc 800");
+        break;
+        
+        case 5 : printf("grilled chicken 900");
+        break;
+        
+        default : printf("no result");
+        
+        
+}
+}
